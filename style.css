@@ -4,7 +4,7 @@
     color: aliceblue;
 }
 
-.timer{
+#timer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ h1{
     padding: 0px 60px;
 }
 
-.WB, .PPR{
+#WB, #PPR{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,14 +27,14 @@ h1{
     margin-bottom: 80px;
 }
 
-.WB button{
+#WB button{
     background: #111;
     font-size: 30px;
     border: 2px solid rgb(58, 59, 59);
     padding: 10px 20px;   
 }
 
-.PPR button{
+#PPR button{
     background: #111;
     border-radius: 50% ;
     height: 70px;
