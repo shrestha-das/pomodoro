@@ -1,5 +1,7 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #111;
+    color: aliceblue;
 }
 
 .timer{
@@ -11,6 +13,10 @@
 
 h1{
     font-size: 200px;
+    background: #111;
+    border: 20px solid rgb(31, 31, 50);
+    border-radius: 5%;
+    padding: 0px 60px;
 }
 
 .WB, .PPR{
@@ -18,16 +24,25 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 90px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .WB button{
+    background: #111;
     font-size: 30px;
+    border: 2px solid rgb(58, 59, 59);
+    padding: 10px 20px;   
 }
 
 .PPR button{
+    background: #111;
     border-radius: 50% ;
     height: 70px;
     width: 70px;
+}
+
+i{
+    background: #111;
+    font-size: 30px;
 }
 
