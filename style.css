@@ -1,0 +1,33 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+h1{
+    font-size: 200px;
+}
+
+.WB, .PPR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 100px;
+}
+
+.WB button{
+    font-size: 30px;
+}
+
+.PPR button{
+    border-radius: 50% ;
+    height: 70px;
+    width: 70px;
+}
+
